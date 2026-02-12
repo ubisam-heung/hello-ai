@@ -59,10 +59,10 @@ hello-db/
 
 ```bash
 # Docker Compose로 모든 데이터베이스 실행
-docker-compose up -d
+docker compose up -d
 
 # 컨테이너 상태 확인
-docker-compose ps
+docker compose ps
 
 # 데이터베이스가 완전히 시작될 때까지 대기 (약 1-2분)
 # Oracle은 최초 실행 시 5-10분 소요될 수 있습니다
@@ -190,8 +190,8 @@ docker logs hello-db-oracle
 데이터를 초기화하려면:
 
 ```bash
-docker-compose down -v
-docker-compose up -d
+docker compose down -v
+docker compose up -d
 ```
 
 ## 라이센스

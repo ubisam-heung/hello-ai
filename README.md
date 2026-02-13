@@ -1,4 +1,4 @@
-# Hello DB - Multi-Database CRUD Project
+# Hello AI - Multi-Database CRUD Project
 
 Vue.js와 REST API를 이용하여 MySQL, MariaDB, PostgreSQL, Oracle 데이터베이스에 연결하고 CRUD 작업을 수행하는 프로젝트입니다.
 
